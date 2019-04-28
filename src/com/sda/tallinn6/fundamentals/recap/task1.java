@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class task1{
 
     public static void main(String[] args){
-        Scanner Scanner = new Scanner (System.in);
+        Scanner Scanner = new Scanner (System.in); //new object creation = creates a memory spot
 
         System.out.println("Enter your full name: "); //first word is set
         String var1 = Scanner.nextLine();
@@ -28,3 +28,11 @@ public class task1{
 
     }
 }
+
+/*
+psvm
+scanner scanname = new scanner(system.in)
+sout
+string name = scanname.nextline() // paned scannerist scanname vorduma stringiga
+minu ifelse kus on name.equals.ignorecase
+ */
