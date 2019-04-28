@@ -28,7 +28,7 @@ public class ConditionalOperator {
 
         //int anotherResult = value1>value1 ? value1 : value2;
 
-        // homework: compare three numbers, convert if else with two ternary operations!!!!!!!
+        // homework: compareTwoStrings three numbers, convert if else with two ternary operations!!!!!!!
 
 
     }
