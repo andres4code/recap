@@ -25,13 +25,13 @@ public class NIODemo {
     public static void printFileText(String filePath){
         Path path = Paths.get(filePath);
         List<String> content = null;
-        try {
+        try {//set of statements where exception can occur
             content = Files.readAllLines(path);
-        } catch (IOException e) {
+        } catch (IOException e) {//handles the exception that occurs in associated try block.
             e.printStackTrace();
         }
 
-        for (String line : content){
+        for (String line : content){//for each line of code: prints all lines of the code
             System.out.println(line);
         }
     }
