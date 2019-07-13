@@ -1,13 +1,16 @@
 package com.sda.tallinn6.evgenii.BuyVehicleHomework;
 
+import java.lang.reflect.Array;
+import java.util.List;
 import java.util.Scanner;
 
 public class Person {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter birthDate in format: month/day/year of birth");
-        CharSequence userInput = scanner.nextLine();
-        System.out.println(userInput);
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Please enter birthDate in format: month/day/year of birth");
+//        CharSequence userInput = scanner.next();
+//        System.out.println(userInput);
+
 
 
     }

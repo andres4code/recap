@@ -11,7 +11,7 @@ public class Varargs {
         int[] arr = new int[]{1, 3, 4, 2};
         System.out.println(sum(arr));
     }
-
+//prints sum of elements(in array or just elements)
     private static int sum(int... elements){
         int result = 0;
         for (int i : elements) {
